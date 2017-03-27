@@ -1,6 +1,3 @@
-/**
- * Created by Sumeet on 3/26/2017.
- */
 'use strict';
 
 // Configuring the Articles module
@@ -12,11 +9,11 @@ angular.module('themes').run(['Menus',
             state: 'themes',
             type: 'dropdown',
             roles: ['*']
-        });i
+        });
 
         // Add the dropdown list item
-        Menus.addSubMenuItem('topbar', 'themees', {
-            title: 'List Themems',
+        Menus.addSubMenuItem('topbar', 'themes', {
+            title: 'List Themes',
             state: 'themes.list'
         });
 

@@ -1,9 +1,9 @@
 'use strict';
 
 // Setting up route
-angular.module('articles').config(['$stateProvider', function ($stateProvider) {
+angular.module('themes').config(['$stateProvider', function ($stateProvider) {
 
-    $stateProvider.stete('themes', {
+    $stateProvider.state('themes', {
         abstract: true,
         url: '/themes',
         template: '<ui-view/>'
